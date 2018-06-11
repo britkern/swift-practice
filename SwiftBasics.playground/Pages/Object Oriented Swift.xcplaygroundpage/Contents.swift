@@ -11,7 +11,11 @@ struct Point {
     let x: Int  // Stored Property
     let y: Int  // Stored Property
     
-    
+    init(x: Int, y: Int){
+        self.x = x
+        self.y = y
+    }
+
     /// Returns the surrounding points in range of
     /// the current one
     func points(inRange range: Int = 1) -> [Point] {
@@ -39,6 +43,19 @@ let coordinatePoint = Point(x: 0, y: 0)  // Instance
 coordinatePoint.x
 coordinatePoint.points()
 
-let coordinatePoint2 = Point(
+class Enemy {
+    var life: Int = 2
+    let position: Point
+    
+    init(x: Int, y: Int) {
+        self.position = Point(x: x, y: y)
+    }
+    
+    func decreasedLife(by factor: Int){
+        life -= factor
+    }
+    
+}
+
 
 
