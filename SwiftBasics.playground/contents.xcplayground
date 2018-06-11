@@ -7,5 +7,6 @@
         <page name='Collections '/>
         <page name='Control Flow'/>
         <page name='Fuctions'/>
+        <page name='Object Oriented Swift'/>
     </pages>
 </playground>
