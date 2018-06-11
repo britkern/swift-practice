@@ -23,3 +23,4 @@ let coordinatePoint = Point(x: 0, y: 0)  // Instance
 coordinatePoint.x
 
 
+
