@@ -23,21 +23,22 @@ struct Point {
         let lowerBoundOfYRange = y - range
         let upperBoundOfYRange = y + range
 
-        for xCoordinate in
-    
-
-
-
+        for xCoordinate in lowerBoundOfXRange...upperBoundOfXRange{
+            for yCoordinate in lowerBoundOfYRange...upperBoundOfYRange{
+            let coordinatePoint = Point(x: xCoordinate, y: yCoordinate)
+                results.append(coordinatePoint)
+            }
+        }
+        
         return results
-
     }
 }
 
 let coordinatePoint = Point(x: 0, y: 0)  // Instance
 
 coordinatePoint.x
+coordinatePoint.points()
 
-
-
+let coordinatePoint2 = Point(
 
 
