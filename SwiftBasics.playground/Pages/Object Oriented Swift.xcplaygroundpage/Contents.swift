@@ -43,6 +43,9 @@ struct Point {
 // coordinatePoint.x
 // coordinatePoint.points()
 
+
+// Enemies
+
 class Enemy {
     var life: Int = 2
     let position: Point
@@ -55,6 +58,16 @@ class Enemy {
         life -= factor
     }
 }
+
+class SuperEnemy: Enemy {
+ 
+    
+}
+
+
+
+
+// Towers
 
 class Tower {
     let position: Point
@@ -89,5 +102,9 @@ class Tower {
 
 let tower = Tower(x: 0, y: 0)
 let enemy = Enemy(x: 1, y: 1)
+let superEnemy = SuperEnemy(x: 0, y: 0)
+
 
 tower.fire(at: enemy)
+
+
