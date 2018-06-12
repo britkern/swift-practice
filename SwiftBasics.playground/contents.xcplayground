@@ -8,5 +8,6 @@
         <page name='Control Flow'/>
         <page name='Fuctions'/>
         <page name='Object Oriented Swift'/>
+        <page name='ValueVsReference'/>
     </pages>
 </playground>
