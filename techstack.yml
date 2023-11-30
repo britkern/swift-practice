@@ -1,0 +1,28 @@
+repo_name: britkern/swift-practice
+report_id: 48500b28100dc498b5c7dfc34f77ec44
+repo_type: Public
+timestamp: '2023-11-30T18:20:31+00:00'
+requested_by: britkern
+provider: github
+branch: master
+detected_tools_count: 2
+tools:
+- name: Swift
+  description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
